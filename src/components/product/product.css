@@ -1,0 +1,42 @@
+.productContainer {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-block: .3rem;
+}
+
+.productContainer img {
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+}
+
+.productContainer .buttons button {
+    margin-inline: .3rem;
+    cursor: pointer;
+}
+
+.productContainer h3 {
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 600;
+    color: black;
+}
+
+.left {
+    display: flex;
+}
+
+.left img {
+    margin-right: 1rem;
+}
+
+.productLink  {
+    text-decoration: none;
+}
+
+.productLink:hover {
+    background-color: rgba(246, 246, 246, 0.595);
+}

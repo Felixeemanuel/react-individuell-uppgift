@@ -1,0 +1,29 @@
+.singleUserDiv {
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.userDetails h3 {
+    margin-left: 2rem;
+}
+
+.singleUserDiv ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+}
+
+.singleUserDiv li {
+    margin-block: .2rem;
+}
+
+.buttons {
+    margin: 1rem;
+}
+
+.buttons button {
+    margin-inline: .2rem;
+}
